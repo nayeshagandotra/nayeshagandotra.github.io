@@ -20,3 +20,4 @@ social: true # includes social icons at the bottom of the page
 
 I'm interested in developing technology that will solve fundamental problems affecting our planet and its dependent societies. Talk to me about planes, electric cars, or robots! Check out my projects page for more details on past work.
 
+Outside of work, I'm an avid reader and amateur chef (check out the blog page for more fun lifestyle related posts). x
