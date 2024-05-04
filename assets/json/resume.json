@@ -30,6 +30,14 @@
   ],
   "education": [
     {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburg, PA",
+      "major": "Mechanical Engineering",
+      "studyType": "Master's of Science, Research",
+      "startDate": "Fall 2024",
+      "endDate": "Spring 2026"
+    },
+    {
       "institution": "University of California, Berkeley",
       "location": "Berkeley, CA",
       "major": "Mechanical Engineering",
@@ -40,11 +48,11 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "The Leadership Award",
+      "date": "2022",
+      "awarder": "Cal Alumni Association",
+      "url": "https://alumni.berkeley.edu/get-involved/scholarships/the-leadership-award/",
+      "summary": "This award recognizes visionary, innovative, and inspiring leaders who make a positive impact on their communities. Scholars are known for their intellectual curiosity and creativity, demonstrating initiative and self-awareness."
     }
   ],
   "certificates": [
