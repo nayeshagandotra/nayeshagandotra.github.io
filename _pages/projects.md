@@ -17,15 +17,18 @@ project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
       <h1 class="post-title">
         {{ page.title }}
         {% if page.project_pdf %}
-          <a
-            href="{{ page.project_pdf | prepend: 'assets/pdf/' | relative_url}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-          <div style="text-align: center; margin-top: 5px; font-size: 0.9em; color: #000;">Resume</div>
+          <div class="pdf-container" style="display: inline-block; text-align: center;">
+            <a
+              href="{{ page.project_pdf | prepend: 'assets/pdf/' | relative_url}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="float-right"
+              style="display: block;"
+            >
+              <i class="fa-solid fa-file-pdf"></i>
+              <span style="display: block; font-size: 0.1em; color: #000;">Resume</span>
+            </a>
+          </div>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -33,6 +36,7 @@ project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
       {% endif %}
     </header>
   {% endif %}
+
 
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->
