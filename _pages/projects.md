@@ -12,24 +12,27 @@ project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
 
 <!-- pages/projects.md -->
 <div class="projects">
-  <header class="post-header">
-    <h1 class="post-title">
-      {{ page.title }}
-      {% if page.project_pdf %}
-        <a
-          href="{{ page.project_pdf | prepend: 'assets/pdf/' | relative_url}}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
+  {% if page.project_pdf or page.description %}
+    <header class="post-header">
+      <h1 class="post-title">
+        {{ page.title }}
+        {% if page.project_pdf %}
+          <a
+            href="{{ page.project_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+          <div style="text-align: center; margin-top: 5px; font-size: 0.9em; color: #000;">Resume</div>
+        {% endif %}
+      </h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
       {% endif %}
-    </h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
+    </header>
+  {% endif %}
 
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->
