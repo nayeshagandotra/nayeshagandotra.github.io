@@ -17,7 +17,7 @@ project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
       <h1 class="post-title">
         {{ page.title }}
         {% if page.project_pdf %}
-          <div class="pdf-container" style="display: inline-block; text-align: center;">
+          <div class="pdf-container" style="float: right; text-align: center;">
             <a
               href="{{ page.project_pdf | prepend: 'assets/pdf/' | relative_url}}"
               target="_blank"
