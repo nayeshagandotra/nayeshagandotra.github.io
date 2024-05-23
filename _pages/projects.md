@@ -26,7 +26,7 @@ project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
               style="display: block;"
             >
               <i class="fa-solid fa-file-pdf"></i>
-              <span style="display: block; font-size: 0.1em; color: #000;">Resume</span>
+              <span style="display: block; font-size: 0.2em; color: #000;">Resume</span>
             </a>
           </div>
         {% endif %}
