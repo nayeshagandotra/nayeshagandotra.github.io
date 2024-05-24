@@ -37,10 +37,10 @@ giscus_comments: true
 </p>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2.png" title="Figure 2"
         class="img-fluid rounded" 
-        style="display: block; margin: auto; width: 300; height: auto;" %}
+        width: "300"; height: "auto"; %}
     </div>
 </div>
 
@@ -57,7 +57,7 @@ giscus_comments: true
 </p>
 
 <!-- Sub-Subheading -->
-<h3 style="font-size: 1em; font-style: italic; margin-top: 1.5em;">Force Analysis for Servo Selection</h3>
+<h3 style="font-size: 1.05em; font-style: italic; margin-top: 1.5em;">Force Analysis for Servo Selection</h3>
 <!-- Sub-Subheading -->
 
 <p style="margin-top: 0.3em;">
