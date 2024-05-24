@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GeckoBot
-description: Gecko and frog inspired 8DoF locomoting robot. Capable of climbing max 28 degree incline with no support.
+description: Gecko and frog inspired 8DoF locomoting robot. Capable of climbing max 68 degree incline with no support.
 img: assets/img/geckobot/geckobot_cover.png
 importance: 2
 category: work
@@ -222,36 +222,56 @@ giscus_comments: true
     </div>
 </div>
 
-
-
-<!-- <div class="row text-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" width="200" height="auto" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" width="250" height="auto" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" width="300" height="auto" %}
-    </div>
-</div> -->
-
-<p>
-    You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<p style="margin-top: 0.3em;">
+    Since we did not implement lamellae, our adhesive force was angle independent as was estimated at a constant value based on physical testing. Hence, this constant adhesive force became a limiting factor in the maximum angle phi the robot could climb, and we found that the supplied servo torque was more than sufficient for efficient horizontal movement and measurement of inclined locomotion. Given the torque rating of 12 Kgcm at 6V for each of the leg servos, we found the net forward thrust force provided by all servos to be 4 times the system weight. Based on previous research, the average required forward force is 71% of body weight when climbing vertically [12], so having the large force margin was desirable as it allowed us to focus on the performance of the gecko inspired adhesive.
 </p>
 
-<div class="row justify-content-sm-center text-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" width="500" height="auto" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" width="300" height="auto" %}
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Results</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    Tests were conducted on an inclined, clean white board. We initially took tests with the robot at rest and with all four of its feet on the white board to ensure the pads were sticky enough to adhere to inclined surfaces. It was determined that the robot could adhere to the white board at an average angle of 71.3°. After these initial tests, we conducted a series of five tests to find the maximum incline angle the robot could climb up without slipping and with slipping. The first five tests were conducted on Monday, November 28th and the last five tests were conducted on Tuesday, November 29th. We conducted these tests by placing the robot at the bottom of the whiteboard and letting it walk up the board for 10 seconds. We increased the incline angle by about 2 degrees until its maximum incline angle was reached.
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig18.png" title="Figure 18" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
-<div class="caption text-center">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="caption text-center">Figure 6: FBD of Robot (Equivalent Weight and CG Marked)</div>
+
+<p style="margin-top: 0.3em;">
+    As seen in the table below, the results aligned well with our predicted maximum angle phi. However, we did notice some slippage in the pads even at lower angles, and this was attributed to the manufacturing method of inconsistencies in mold setting and post processing.   
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig19.png" title="Figure 19" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
 </div>
 
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Future Improvements</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    Figure (8) is the estimated gait cycle of our gecko bot and figure (9) is the gait cycle of a gecko according to researchers at the technical university of Hamburg. Comparing the two gait cycles, we can see that our gecko gait cycle initially has a similar trend compared to figure 8. However, the trend quickly becomes different. Our gait cycle explained that we attempted a different method for the locomotion of the gecko as we quickly discovered our limits such as manufacturing accuracy and weight limit would not allow for accurate mimic of gecko movement. 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig20.png" title="Figure 20" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 7: Gait cycle according to UTH [8] v/s GeckoBot gait cycle</div>
+
+<p style="margin-top: 0.3em;">
+    Furthermore, selecting servos that provided sufficient torque while remaining lightweight, such as the Adafruit Micro Servo which would have provided sufficient torque for our robot, would have been possible if we were not subject to budget constraints [9]. Conducting FEA analysis to maintain the stiffness of the design while decreasing the volume of material would have helped minimize the overall mass as well. 
+    
+	Research has shown that incorporating a tail in the design of a wall-climbing robot improves the stability and maximum climbing angle of the robot by adjusting the robot’s center of gravity and prevents it from slipping by increasing the friction force between the inclined surface and the robot [10]. Initially we had planned to implement a tail design after developing the first couple of robot prototypes; however, because the weight of our final design was relatively large, it would be detrimental to add additional weight by implementing a tail. If we had successfully kept our robot under approximately 0.5 kg, we would have considered the addition of a tail in our design.
+
+</p>
 
 {% raw %}
 
