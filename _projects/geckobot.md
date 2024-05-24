@@ -30,11 +30,35 @@ Figure 1-i illustrates the forces acting on a single spatula when the gecko is a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2" title="Figure 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+Researchers have employed MENS/NENS fabrication techniques, including photolithography, micro-molding, and plasma etching to manufacture pads with structures that emulate geckos’ setae [2,3]. 
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Design Discussion</h2>
+<!-- Subheading -->
+
+We began the project by designing a locomoting robot that could emulate the gecko’s locomotive climbing cycle and avoid pitch-back as it climbs up a wall. The robot would have four legs and each leg had two degrees of freedom to replicate a gecko’s limb. One degree of freedom allowed abduction and adduction of each leg for the robot to move forward and lift itself up the surface. The other degree of freedom provided flexion and extension of each leg allowing the robot to adhere to and peel away from the wall. We chose to use eight servos to drive these movements because of their ability to precisely control the rotation of their motor shaft. The maximum mass of the robot would be 0.7 kg (W ~ 7N). The body and legs were made out of PLA to minimize the robot’s weight.
+
+<!-- Sub-Subheading -->
+<h3 style="font-size: 1em; font-style: italic; margin-top: 1.5em;">Force Analysis for Servo Selection</h2>
+<!-- Sub-Subheading -->
+
+We carried out static force analysis to select the optimal dimensions of the robot and aid in motor selection. Since we planned on using 55g servos, we couldn’t neglect the weight of the linkages. Hence, we first found the equivalent CG of the entire robot in neutral position as such: 
+
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3" title="Figure 3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Internal FBD of Robot
+</div>
+
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -44,10 +68,10 @@ Figure 1-i illustrates the forces acting on a single spatula when the gecko is a
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
+</div> -->
+<!-- <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> -->
 
 
 You can also put regular text between your rows of images.
