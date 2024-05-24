@@ -83,8 +83,41 @@ giscus_comments: true
     </div>
 </div>
 
+<p style="margin-top: 0.3em;">
+    Moreover, since the robot is not slipping, the moments about the two feet centers and the CG balance out as: 
+</p>
 
 <div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig7.png" title="Figure 7" class="img-fluid rounded" width="350" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    From this moment balance, we see that:
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig8.png" title="Figure 8" class="img-fluid rounded" width="350" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    Equations (8) and (9) can also be found from the symmetry consideration of the robot. Finally, rearranging equation 7 yields the required horizontal force: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig9.png" title="Figure 9" class="img-fluid rounded" width="350" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    Given the designed values of d1, d2, and d3, we find the need for a horizontal force acting towards the surface of roughly 30% of the half weight of the robot. This is usually achieved in industry using vacuum suction cups. We also find the upwards shear forces on each pad to be 25% of the full robot weight, which is expected from the neutral position. Hence we find the resting torque required from each leg servo as T = FL, where L is the length of the linkage. For the foot servos, the torque can be easily found as Tf = GL, where L is again the length of the linkage and G is the weight of each foot in Newtons. 
+</p>
+
+<!-- <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" width="200" height="auto" %}
     </div>
@@ -94,7 +127,7 @@ giscus_comments: true
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" width="300" height="auto" %}
     </div>
-</div>
+</div> -->
 
 <p>
     You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
