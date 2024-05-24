@@ -65,7 +65,7 @@ giscus_comments: true
         {% include figure.liquid path="assets/img/geckobot/gb_fig5.png" title="Figure 3" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
-<div class="caption text-center">Figure 3: FBD of Robot (Equivalent Weight and CG Marked)</div>
+<div class="caption text-center">Figure 2: FBD of Robot (Equivalent Weight and CG Marked)</div>
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -145,7 +145,7 @@ giscus_comments: true
     </div>
 </div>
 
-<div class="caption text-center">Figure 5: (Above) Diagonal Gait cycle of robot and (Below) twist and tail movement of Gecko during cycle (source Autumn et al, 2006 [11])</div>
+<div class="caption text-center">Figure 3: (Above) Diagonal Gait cycle of robot and (Below) twist and tail movement of Gecko during cycle (source Autumn et al, 2006 [11])</div>
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -172,7 +172,57 @@ giscus_comments: true
         {% include figure.liquid path="assets/img/geckobot/gb_fig13.png" title="Figure 13" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
-<div class="caption text-center">Figure 6: Robot Modified Diagonal Gait</div>
+<div class="caption text-center">Figure 4: Robot Modified Diagonal Gait</div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">CAD Model of Design</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    With all our calculations done, we created our first design iteration, which is shown in Figure 7. Taking the static force analysis conducted above into consideration, we connected the robot’s legs to the underside of its body to minimize the distance between its center of mass and the climbing surface. We also connected the servo for controlling the attachment/detachment of the foot closer to the foot so that less torque would need to be delivered to carry out this movement. The dimensions of the body were 7 inches long and 3 inches wide. The height of the robot’s legs, d1, was 2.5 inches and the length of each leg, d5, was 3.5 inches. The distance between the front and back legs, d23, was 4.5 inches.  
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig14.png" title="Figure 14" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 5: CAD Model of the first design iteration.</div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Final Design Iteration</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    With the 55g servos, the last step remaining was to confirm that the supplied servo torque would be enough to drag the robot forward as seen in the robot locomotive cycle (see figure 6). For this, we performed a basic force analysis on the joints of the robot:
+</p>
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig15.png" title="Figure 15" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    Here Fa is the adhesive force, Fs is the backward force due to the moment M by the servo, and Ft is the net force pushing the body of the GeckoBot forward. For the robot to move, the force of adhesion must be exactly equal to the servo force, such that the pads don't move, which forces the main body to move instead. Assuming a limb length L, we see that:
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig16.png" title="Figure 16" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    When the robot is perfectly horizontal. When the robot is on an incline of angle phi, then an additional W*sin(phi) component also acts in the downward direction, and the adhesive force must be modified as: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig17.png" title="Figure 17" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+
 
 <!-- <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
