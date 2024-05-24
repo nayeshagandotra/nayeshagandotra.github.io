@@ -117,6 +117,29 @@ giscus_comments: true
     Given the designed values of d1, d2, and d3, we find the need for a horizontal force acting towards the surface of roughly 30% of the half weight of the robot. This is usually achieved in industry using vacuum suction cups. We also find the upwards shear forces on each pad to be 25% of the full robot weight, which is expected from the neutral position. Hence we find the resting torque required from each leg servo as T = FL, where L is the length of the linkage. For the foot servos, the torque can be easily found as Tf = GL, where L is again the length of the linkage and G is the weight of each foot in Newtons. 
 </p>
 
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Silicone Pad design and Adhesive force test</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    Once we knew of the forces required from the servos, we moved on to finalize the form factor and design of the silicone pads. Our choice of silicone epoxy came from a previous project based on the research of Autumn et al[11] into synthetic materials that can mimic the unique properties of gecko feet. While conventional Pressure Sensitive Adhesives (PSAs) like duct tape or sticky note glue work on pure adhesion, the setae on gecko pads are an anisotropic frictional adhesive that require a proximally directed shear frictional force to maintain adhesion to the desired surface (Autumn et al, 2008). 
+ 
+    Each gecko foot has over 200,000 setae per toe, each of which provide an adhesive force that is directionally dependent on the angle of contact between the setae and the surface of interest. To create our gecko inspired adhesive, we used a polydimethylsiloxane (PMDS) and initially tried to replicate the features of a lamella. We used acrylic laser cutting as a manufacturing method to create molds with various different shapes of lamellae cut out, including circles of varying diameters, flanges, and even molds with no lamellae. The objective was to measure the adhesive force of each design and finally implement the design providing the highest adhesive force. 
+    
+    In order to test the shear v/s adhesive force of each pad design, we planned to first adhere the pads to a vertical surface by providing a horizontal pushing force, and then begin attaching weights of increasing denominations to the pads and measure the maximum weight it was able to take without slipping. During the test, we realized the inefficiencies of our manufacturing methods- despite using the smallest allowable thickness settings of the laser cutter (0.1mm), the lamellae we created were too thick and were hence unable to bend as required to adhere to the vertical surface without the application of a significant horizontal force. Upon further research, we saw that lamellae used to replicate gecko adhesives have micron diameters, which we could not manufacture due a lack of microfabrication techniques. Moreover, the horizontal force would be in addition to that calculated in the previous section, and we realized that without additional mechanisms- like suction cups- it would be impossible for the robot to generate such high forces. In an attempt to reduce the weight and complexity of the project, we opted out of using additional force producing designs, and hence chose to forgo implementing lamellae and went with plain pads as they performed the best during adhesion testing. We also chose to modify the scope of the project to climb an inclined surface and measure the maximum incline the robot could climb without slipping, as climbing a perfectly vertical wall would be impossible without additional horizontal force. 
+ 
+    During testing, we saw that each 2x2inch plain PMDS pad was capable of handling 170g at 71 degrees and 250g at 47 degrees without slipping. Since our robot was estimated to weigh ~715g, we expected our maximum incline to be 61 degrees from horizontal.
+</p>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Robot’s Locomotive Cycle</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    With resting servo forces calculated and silicone pad form factors decided, we moved on to creating the locomotive cycle of the robot that would then be implemented using the on board Arduino and a PWM servo controller. Each foot servo was used to lift feet off the ground and make ground contact, and the leg servos were used to swing the robot back and forth. Our locomotive cycle was based on the diagonal gait used by many researchers, which uses two diagonal legs to support the robot's body as it moves. In this gait, two diagonal legs extend forward and then pull the robot back, and by oscillating between the right diagonal and left diagonal legs, the robot lopes its way forward. This gait is inherently unstable because of the constant shift in CG due to the extension of only two legs at a time. Gecko's- and other industrial robots- overcome this CG shift by using CG correcting appendages like tails, and by fluidly twisting the torso to maintain CG along the path, as seen in the figures below. 
+</p>
+
+
 <!-- <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" width="200" height="auto" %}
