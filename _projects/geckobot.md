@@ -15,7 +15,7 @@ giscus_comments: true
 Vertical wall climbing robots have been a subject of scientific research for several years and could be used in a variety of applications. Robots that climb could eliminate the need for scaffolding when fulfilling jobs such as inspecting and maintaining airplanes and relieve humans of hazardous tasks such as window-washing and firefighting. An important consideration when designing these robots is its method for adhering to surfaces; consequently, researchers have identified and implemented different mechanisms for adhesion, including magnetic, pneumatic, electrostatic, and bio-inspired methods. Frequently, researchers have borrowed from the gecko’s unique method for adhesion when designing wall-climbing robots. Our project objective was to measure the effectiveness of a commonly used gecko-inspired adhesive in imparting wall climbing capabilities to a locomoting robot. Originally, we had planned to test our custom manufactured adhesive on a vertical wall- however, due to a lack of access to microfabrication techniques, we were forced to narrow our testing to inclined walls, and instead chose to measure the maximum incline our robot could climb without slipping thanks to the gecko-inspired adhesive feet.
 
 <!-- Subheading -->
-<h2 style="font-size: 0.9em; font-style: italic; margin-top: 1.5em;">Gecko’s Method for Adhesion</h2>
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Gecko’s Method for Adhesion</h2>
 <!-- Subheading -->
 
 The remarkable climbing ability of the gecko has been attributed primarily to the tiny, hair-like structures found on the toes. The toes hold modified keratinized scales called lamellae which are subdivided into tiny, hair-like structures called setae. These structures are composed of several nanoscale-sized spatulae which provide high adhesion and friction forces between the toe pads and surfaces through van der Waals forces [1]. Figure 1 shows the hierarchical structure of the gecko and the forces that act on its components.
@@ -25,8 +25,13 @@ The remarkable climbing ability of the gecko has been attributed primarily to th
         {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+
+Figure 1-i illustrates the forces acting on a single spatula when the gecko is adhered to the wall. The lateral friction force FLand normal adhesion force FN act on each spatula during adhesion. Furthermore, the angle that varies the net force acting on each spatula, F() is often less than 45°. Therefore, the lateral friction force that acts on the spatula contributes non negligible to the gecko’s ability to not slip against the wall. The equation for F(Theta) is:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 <div class="row">
