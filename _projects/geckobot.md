@@ -5,7 +5,6 @@ description: Gecko and frog inspired 8DoF locomoting robot. Capable of climbing 
 img: assets/img/geckobot/geckobot_cover.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <!-- Project Title -->
