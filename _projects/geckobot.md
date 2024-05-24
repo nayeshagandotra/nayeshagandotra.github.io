@@ -22,7 +22,7 @@ The remarkable climbing ability of the gecko has been attributed primarily to th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded" %}
     </div>
 </div>
 
@@ -30,7 +30,7 @@ Figure 1-i illustrates the forces acting on a single spatula when the gecko is a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2" title="Figure 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2" title="Figure 2" class="img-fluid rounded" %}
     </div>
 </div>
 
@@ -50,7 +50,7 @@ We carried out static force analysis to select the optimal dimensions of the rob
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3" title="Figure 3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3" title="Figure 3" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
