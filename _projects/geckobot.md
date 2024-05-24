@@ -163,6 +163,17 @@ giscus_comments: true
     </div>
 </div>
 
+<p style="margin-top: 0.3em;">
+    Where theta is the angle with which the limb rotates. Hence we see that as each limb swings forward, the CG shifts slightly forward as well, but due to the symmetry of the robot there is no stray in the X direction. The motion of the gecko with the modified diagonal gait can be summarized as below. The Orange dots represent limb CG and the red dots represent past and present values of system CG.
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig13.png" title="Figure 13" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 6: Robot Modified Diagonal Gait</div>
+
 <!-- <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" width="200" height="auto" %}
