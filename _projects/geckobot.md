@@ -306,4 +306,14 @@ category: work
 
 </p>
 
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-weight: bold; font-style: italic; margin-top: 1.5em;">References</h2>
+<!-- Subheading -->
 
+<p style="margin-top: 0.3em;">
+Contributions: <br><br>
+Analysis, Diagrams, and Theoretical Model Creation: Nayesha Gandotra and Brittany Navailles <br><br>
+Gecko Pad manufacturing and Testing, Locomotive cycle research: Pablo Alvarez <br><br>
+CAD design and prototyping: Alex Topp <br><br>
+Locomotive Cycle coding and Arduino implementation: Nayesha Gandotra and Seong Ho Yang <br><br>
+</p>
