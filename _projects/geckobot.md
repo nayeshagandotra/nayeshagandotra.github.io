@@ -306,3 +306,5 @@ giscus_comments: true
     [10] Zang, Guangyuan, et al. “The Roles and Comparison of Rigid and Soft Tails in Gecko-Inspired Climbing Robots: A Mini-Review.” Frontiers in Bioengineering and Biotechnology, vol. 10, 2022, https://doi.org/10.3389/fbioe.2022.900389. <br><br>
 
 </p>
+
+
