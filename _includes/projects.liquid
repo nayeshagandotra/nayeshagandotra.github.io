@@ -11,9 +11,9 @@
           class="card-img-top"
         %}
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+      <div class="card-body" style="padding: 10px;"> <!-- Adjust padding here -->
+        <h2 class="card-title" style="margin-bottom: 0px; font-size: 0.9em;">{{ project.title }}</h2> <!-- Adjust margin and font size here -->
+        <p class="card-text" style="margin: 0; font-size: 0.5em;">{{ project.description }}</p> <!-- Adjust margin here -->
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
