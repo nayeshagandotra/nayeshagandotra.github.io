@@ -8,18 +8,13 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<!-- Project Title -->
+<h1 style="font-size: 1.5em; font-weight: bold;">GeckoBot Project</h1>
+<!-- font-style: italic; -->
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Vertical wall climbing robots have been a subject of scientific research for several years and could be used in a variety of applications. Robots that climb could eliminate the need for scaffolding when fulfilling jobs such as inspecting and maintaining airplanes and relieve humans of hazardous tasks such as window-washing and firefighting. An important consideration when designing these robots is its method for adhering to surfaces; consequently, researchers have identified and implemented different mechanisms for adhesion, including magnetic, pneumatic, electrostatic, and bio-inspired methods. Frequently, researchers have borrowed from the gecko’s unique method for adhesion when designing wall-climbing robots. Our project objective was to measure the effectiveness of a commonly used gecko-inspired adhesive in imparting wall climbing capabilities to a locomoting robot. Originally, we had planned to test our custom manufactured adhesive on a vertical wall- however, due to a lack of access to microfabrication techniques, we were forced to narrow our testing to inclined walls, and instead chose to measure the maximum incline our robot could climb without slipping thanks to the gecko-inspired adhesive feet.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
