@@ -8,6 +8,8 @@ category: work
 giscus_comments: true
 ---
 
+<!-- style="width: 400px; height: auto;" -->
+
 <!-- Project Title -->
 <h1 style="font-size: 1.5em; font-weight: bold;">GeckoBot: A Gecko Inspired Incline-Climbing Robot </h1>
 <!-- Project Title -->
@@ -68,6 +70,7 @@ giscus_comments: true
 <div class="caption">
     Figure 3: Internal FBD of Robot
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig4" title="Figure 4" class="img-fluid rounded" %}
@@ -77,6 +80,15 @@ giscus_comments: true
 <p style="margin-top: 1.5em;">
 Since the robot is symmetric about the X axis, the Y coordinate of the CG can be found using CAD at 9cm from the back foot base. Thus, knowing the location of the CG in neutral position, we can label the minimum required adhesion and normal forces while the robot is in the "resting" position- all legs neutral, feet against a vertical surface.  
 </p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig5" title="Figure 5" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 4: FBD of Robot (Equivalent Weight and CG Marked)
+</div>
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
