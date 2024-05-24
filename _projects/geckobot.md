@@ -39,8 +39,7 @@ giscus_comments: true
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2.png" title="Figure 2"
-        class="img-fluid rounded" 
-        width: "300"; height: "auto"; %}
+        class="img-fluid rounded" width: "300"; height: "auto" %}
     </div>
 </div>
 
