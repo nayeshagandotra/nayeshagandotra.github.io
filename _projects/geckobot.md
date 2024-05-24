@@ -198,7 +198,7 @@ giscus_comments: true
 </p>
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig15.png" title="Figure 15" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig15.png" title="Figure 15" class="img-fluid rounded" width="300" height="auto" %}
     </div>
 </div>
 
@@ -218,7 +218,7 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig17.png" title="Figure 17" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig17.png" title="Figure 17" class="img-fluid rounded" width="230" height="auto" %}
     </div>
 </div>
 
@@ -268,10 +268,45 @@ giscus_comments: true
 
 <p style="margin-top: 0.3em;">
     Furthermore, selecting servos that provided sufficient torque while remaining lightweight, such as the Adafruit Micro Servo which would have provided sufficient torque for our robot, would have been possible if we were not subject to budget constraints [9]. Conducting FEA analysis to maintain the stiffness of the design while decreasing the volume of material would have helped minimize the overall mass as well. 
-    
+
 	Research has shown that incorporating a tail in the design of a wall-climbing robot improves the stability and maximum climbing angle of the robot by adjusting the robot’s center of gravity and prevents it from slipping by increasing the friction force between the inclined surface and the robot [10]. Initially we had planned to implement a tail design after developing the first couple of robot prototypes; however, because the weight of our final design was relatively large, it would be detrimental to add additional weight by implementing a tail. If we had successfully kept our robot under approximately 0.5 kg, we would have considered the addition of a tail in our design.
+</p>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Conclusion</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    To conclude, our project proved the effectiveness of silicon epoxy in adhering to flat surfaces to drive forward motion in four legged robots. By using higher standards of servo motors and allowing CG shifts in the design to avoid slippage due to CG misalignment we could’ve increased the maximum angle the robot was capable of climbing without slip. Finally, our initial goal mass limit was 0.5 kg whereas we exceeded by reaching 0.98kg. If we could have decreased the mass, potentially our angle of elevation would have been steeper. 
+</p>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">References</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    [1] Tian, Yu, et al. “Adhesion and Friction in Gecko Toe Attachment and Detachment.” Proceedings of the National Academy of Sciences, vol. 103, no. 51, 2006, pp. 19320–19325., doi:10.1073/pnas.0608841103. 
+    
+    [2] Bian, Shiyuan, et al. “A Novel Type of Wall-Climbing Robot with a Gear Transmission System Arm and Adhere Mechanism Inspired by Cicada and Gecko.” Applied Sciences, vol. 11, no. 9, 2021, p. 4137., doi:10.3390/app11094137. 
+
+    [3] Lv, Hao, et al. “Fabrication of Biomimetic Gecko Setae by Direct Photolithography and Micromolding Processes.” 2011 6th IEEE International Conference on Nano/Micro Engineered and Molecular Systems, 2011, doi:10.1109/nems.2011.6017403. 
+
+    [4] MENG, Cai. “Design and Analysis of Gecko-like Robot.” Chinese Journal of Mechanical Engineering, vol. 24, no. 02, 2011, p. 224., doi:10.3901/cjme.2011.02.224. 
+
+    [5] Servo Motor Data Sheet, education.ti.com/html/webhelp/eg_innovator/en/content/eg_innovsys/m_io-datasheets/io_ds_servomotor.HTML. 
+
+    [6] Amador, Guillermo J., et al. “Soiled Adhesive Pads Shear Clean by Slipping: A Robust Self-Cleaning Mechanism in Climbing Beetles.” Journal of The Royal Society Interface, vol. 14, no. 131, 2017, p. 20170134., https://doi.org/10.1098/rsif.2017.0134. 
+
+    [7] “MG996R Servo Motor.” Components101, https://components101.com/motors/mg996r-servo-motor-datasheet. 
+
+    [8] Schiller, Lars, et al. “Toward a Gecko-Inspired, Climbing Soft Robot.” Frontiers in Neurorobotics, vol. 13, 2019, https://doi.org/10.3389/fnbot.2019.00106. 
+
+    [9] Industries, Adafruit. “Micro Servo - High Powered, High Torque Metal Gear.” Adafruit Industries Blog, https://www.adafruit.com/product/2307?gclid=Cj0KCQiA1sucBhDgARIsAFoytUuL-xewzdeicIqoky6bub1VucrNR6QIf0aFgOKuoupCe8YrPydtfV8aArzVEALw_wcB. 
+    
+    [10] Zang, Guangyuan, et al. “The Roles and Comparison of Rigid and Soft Tails in Gecko-Inspired Climbing Robots: A Mini-Review.” Frontiers in Bioengineering and Biotechnology, vol. 10, 2022, https://doi.org/10.3389/fbioe.2022.900389. 
 
 </p>
+
 
 {% raw %}
 
