@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: GeckoBot
+description: Gecko and frog inspired 2DoF locomoting robot. Capable of climbing max 28 degree incline with no support.
+img: assets/img/geckobot/geckobot_cover.png
 importance: 2
 category: work
 giscus_comments: true
