@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GeckoBot
-description: Gecko and frog inspired 2DoF locomoting robot. Capable of climbing max 28 degree incline with no support.
+description: Gecko and frog inspired 8DoF locomoting robot. Capable of climbing max 28 degree incline with no support.
 img: assets/img/geckobot/geckobot_cover.png
 importance: 2
 category: work
@@ -10,11 +10,13 @@ giscus_comments: true
 
 <!-- Project Title -->
 <h1 style="font-size: 1.5em; font-weight: bold;">GeckoBot Project</h1>
-<!-- font-style: italic; -->
+<!-- Project Title -->
 
 Vertical wall climbing robots have been a subject of scientific research for several years and could be used in a variety of applications. Robots that climb could eliminate the need for scaffolding when fulfilling jobs such as inspecting and maintaining airplanes and relieve humans of hazardous tasks such as window-washing and firefighting. An important consideration when designing these robots is its method for adhering to surfaces; consequently, researchers have identified and implemented different mechanisms for adhesion, including magnetic, pneumatic, electrostatic, and bio-inspired methods. Frequently, researchers have borrowed from the gecko’s unique method for adhesion when designing wall-climbing robots. Our project objective was to measure the effectiveness of a commonly used gecko-inspired adhesive in imparting wall climbing capabilities to a locomoting robot. Originally, we had planned to test our custom manufactured adhesive on a vertical wall- however, due to a lack of access to microfabrication techniques, we were forced to narrow our testing to inclined walls, and instead chose to measure the maximum incline our robot could climb without slipping thanks to the gecko-inspired adhesive feet.
 
-
+<!-- Subheading -->
+<h2 style="font-size: 0.9em; font-style: italic; margin-top: 1.5em;">Gecko’s Method for Adhesion</h2>
+<!-- Subheading -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
