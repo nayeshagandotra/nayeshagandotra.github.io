@@ -141,7 +141,7 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig10.png" title="Figure 10" class="img-fluid rounded" width="90%" height="auto" %}
     </div>
 </div>
 
@@ -149,7 +149,7 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig11.png" title="Figure 11" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig11.png" title="Figure 11" class="img-fluid rounded" width="80%" height="auto" %}
     </div>
 </div>
 
@@ -191,7 +191,6 @@ giscus_comments: true
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple. Just wrap your images with `<div class="col-sm text-center">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system). To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes. Here's the code for the last row of images above:
 
 {% raw %}
 
