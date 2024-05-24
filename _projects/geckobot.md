@@ -22,27 +22,27 @@ giscus_comments: true
 <h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Gecko’s Method for Adhesion</h2>
 <!-- Subheading -->
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
     The remarkable climbing ability of the gecko has been attributed primarily to the tiny, hair-like structures found on the toes. The toes hold modified keratinized scales called lamellae which are subdivided into tiny, hair-like structures called setae. These structures are composed of several nanoscale-sized spatulae which provide high adhesion and friction forces between the toe pads and surfaces through van der Waals forces [1]. Figure 1 shows the hierarchical structure of the gecko and the forces that act on its components.
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1" title="Figure 1" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig1.png" title="Figure 1" class="img-fluid rounded" %}
     </div>
 </div>
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
     Figure 1-i illustrates the forces acting on a single spatula when the gecko is adhered to the wall. The lateral friction force FLand normal adhesion force FN act on each spatula during adhesion. Furthermore, the angle that varies the net force acting on each spatula, F() is often less than 45°. Therefore, the lateral friction force that acts on the spatula contributes non negligible to the gecko’s ability to not slip against the wall. The equation for F(Theta) is:
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2" title="Figure 2" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2.png" title="Figure 2" class="img-fluid rounded" %}
     </div>
 </div>
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
     Researchers have employed MENS/NENS fabrication techniques, including photolithography, micro-molding, and plasma etching to manufacture pads with structures that emulate geckos’ setae [2,3]. 
 </p>
 
@@ -50,7 +50,7 @@ giscus_comments: true
 <h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Design Discussion</h2>
 <!-- Subheading -->
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
     We began the project by designing a locomoting robot that could emulate the gecko’s locomotive climbing cycle and avoid pitch-back as it climbs up a wall. The robot would have four legs and each leg had two degrees of freedom to replicate a gecko’s limb. One degree of freedom allowed abduction and adduction of each leg for the robot to move forward and lift itself up the surface. The other degree of freedom provided flexion and extension of each leg allowing the robot to adhere to and peel away from the wall. We chose to use eight servos to drive these movements because of their ability to precisely control the rotation of their motor shaft. The maximum mass of the robot would be 0.7 kg (W ~ 7N). The body and legs were made out of PLA to minimize the robot’s weight.
 </p>
 
@@ -58,13 +58,13 @@ giscus_comments: true
 <h3 style="font-size: 1em; font-style: italic; margin-top: 1.5em;">Force Analysis for Servo Selection</h3>
 <!-- Sub-Subheading -->
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
     We carried out static force analysis to select the optimal dimensions of the robot and aid in motor selection. Since we planned on using 55g servos, we couldn’t neglect the weight of the linkages. Hence, we first found the equivalent CG of the entire robot in neutral position as such: 
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3" title="Figure 3" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3.png" title="Figure 3" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -73,17 +73,17 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig4" title="Figure 4" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig4.png" title="Figure 4" class="img-fluid rounded" %}
     </div>
 </div>
 
-<p style="margin-top: 1.5em;">
+<p style="margin-top: 0.3em;">
 Since the robot is symmetric about the X axis, the Y coordinate of the CG can be found using CAD at 9cm from the back foot base. Thus, knowing the location of the CG in neutral position, we can label the minimum required adhesion and normal forces while the robot is in the "resting" position- all legs neutral, feet against a vertical surface.  
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig5" title="Figure 5" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig5.png" title="Figure 5" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
