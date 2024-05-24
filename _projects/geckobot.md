@@ -144,10 +144,22 @@ giscus_comments: true
         {% include figure.liquid path="assets/img/geckobot/gb_fig10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
+
 <div class="caption text-center">Figure 5: (Above) Diagonal Gait cycle of robot and (Below) twist and tail movement of Gecko during cycle (source Autumn et al, 2006 [11])</div>
+
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/geckobot/gb_fig11.png" title="Figure 11" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    We decided to slightly modify the diagonal gait by extending and pulling back all four legs of the robot at the same time, which would ensure that our CG did not shift away from our desired path. To confirm the stability of this gait we began by analyzing the CG shift and force on CG during regular motion. Assuming a limb length of L, and individual limb weights assigned sequentially, we see that in the neutral position, the Y coordinate of the CG can be found as: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig12.png" title="Figure 12" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
 
