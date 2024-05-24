@@ -74,8 +74,15 @@ giscus_comments: true
 </div>
 
 <p style="margin-top: 0.3em;">
-    Since the robot is symmetric about the X axis, the Y coordinate of the CG can be found using CAD at 9cm from the back foot base. Thus, knowing the location of the CG in neutral position, we can label the minimum required adhesion and normal forces while the robot is in the "resting" position- all legs neutral, feet against a vertical surface.
+    Since the robot is symmetric about the X axis, the Y coordinate of the CG can be found using CAD at 9cm from the back foot base. Thus, knowing the location of the CG in neutral position, we can label the minimum required adhesion and normal forces while the robot is in the "resting" position- all legs neutral, feet against a vertical surface. Seeing Fig [3], d1 is the distance between the robot’s center of mass and the wall, d2 is the distance between the CG and the middle of the first foot, and d3 is the distance between the centers of the two feet. Once again, only half of the robot weight is considered due to symmetry. Considering the robot to be in equilibrium at this moment, we find: 
 </p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig6.png" title="Figure 6" class="img-fluid rounded" width="350" height="auto" %}
+    </div>
+</div>
+
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
