@@ -38,7 +38,9 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2.png" title="Figure 2" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig2.png" title="Figure 2"
+        class="img-fluid rounded" 
+        style="display: block; margin: auto; width: 300; height: auto;" %}
     </div>
 </div>
 
@@ -64,11 +66,11 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig3.png" title="Figure 3" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig5.png" title="Figure 3" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    Figure 3: Internal FBD of Robot
+    Figure 3: FBD of Robot (Equivalent Weight and CG Marked)
 </div>
 
 <div class="row">
@@ -81,14 +83,6 @@ giscus_comments: true
 Since the robot is symmetric about the X axis, the Y coordinate of the CG can be found using CAD at 9cm from the back foot base. Thus, knowing the location of the CG in neutral position, we can label the minimum required adhesion and normal forces while the robot is in the "resting" position- all legs neutral, feet against a vertical surface.  
 </p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geckobot/gb_fig5.png" title="Figure 5" class="img-fluid rounded" %}
-    </div>
-</div>
-<div class="caption">
-    Figure 4: FBD of Robot (Equivalent Weight and CG Marked)
-</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -101,6 +95,7 @@ Since the robot is symmetric about the X axis, the Y coordinate of the CG can be
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <!-- <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div> -->
