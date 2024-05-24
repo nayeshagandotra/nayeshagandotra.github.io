@@ -44,6 +44,7 @@ giscus_comments: true
     </div>
 </div>
 
+
 <p style="margin-top: 0.3em;">
     Researchers have employed MENS/NENS fabrication techniques, including photolithography, micro-molding, and plasma etching to manufacture pads with structures that emulate geckos’ setae [2,3]. 
 </p>
