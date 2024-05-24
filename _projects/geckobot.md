@@ -139,6 +139,17 @@ giscus_comments: true
     With resting servo forces calculated and silicone pad form factors decided, we moved on to creating the locomotive cycle of the robot that would then be implemented using the on board Arduino and a PWM servo controller. Each foot servo was used to lift feet off the ground and make ground contact, and the leg servos were used to swing the robot back and forth. Our locomotive cycle was based on the diagonal gait used by many researchers, which uses two diagonal legs to support the robot's body as it moves. In this gait, two diagonal legs extend forward and then pull the robot back, and by oscillating between the right diagonal and left diagonal legs, the robot lopes its way forward. This gait is inherently unstable because of the constant shift in CG due to the extension of only two legs at a time. Gecko's- and other industrial robots- overcome this CG shift by using CG correcting appendages like tails, and by fluidly twisting the torso to maintain CG along the path, as seen in the figures below. 
 </p>
 
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 5: (Above) Diagonal Gait cycle of robot and (Below) twist and tail movement of Gecko during cycle (source Autumn et al, 2006 [11])</div>
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/geckobot/gb_fig11.png" title="Figure 11" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
 
 <!-- <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
