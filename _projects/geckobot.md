@@ -26,7 +26,7 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig1.png" title="Figure 1" class="img-fluid rounded" width="300" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig1.png" title="Figure 1" class="img-fluid rounded" width="100%" height="auto" %}
     </div>
 </div>
 
@@ -36,7 +36,7 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig2.png" title="Figure 2" class="img-fluid rounded" width="400" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig2.png" title="Figure 2" class="img-fluid rounded" width="300" height="auto" %}
     </div>
 </div>
 
@@ -62,14 +62,14 @@ giscus_comments: true
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig5.png" title="Figure 3" class="img-fluid rounded" width="350" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig5.png" title="Figure 3" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
 <div class="caption text-center">Figure 3: FBD of Robot (Equivalent Weight and CG Marked)</div>
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geckobot/gb_fig4.png" title="Figure 4" class="img-fluid rounded" width="300" height="auto" %}
+        {% include figure.liquid path="assets/img/geckobot/gb_fig4.png" title="Figure 4" class="img-fluid rounded" width="90%" height="auto" %}
     </div>
 </div>
 
