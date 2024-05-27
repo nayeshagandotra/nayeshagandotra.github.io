@@ -199,3 +199,31 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 <p style="margin-top: 0.3em;">
     We wanted our implementation to be rapidly iterable, hence we decided to split our code into three nodes- audio processing, image recognition and state decision, and movement execution. The audio processing node took audio input, converted it into a .WAV file, and used pattern recognition to identify the salient BPM of the audio file. We also decided to map a “high” BPM- defined above ~150 BPM to a 2/2 motion, since that was less elaborate and required less time to complete. A “low” BPM was mapped to the 4/4 motion, which had multiple stops and would require longer to execute fully. The image processing was all done beforehand, since the trajectory for a particular time signature wouldn’t change as the motion was happening, and we wanted to avoid latency due to time lost during image processing. The state decider node took the calculated trajectory waypoints as a CSV file and mapped them to a dictionary where the keys were the “low” or “high” signal of the BPM. The state decider served as both a publisher and subscriber node and published the calculated PoseArray of waypoints onto the state_info topic, which was subscribed to by the movement executor node. The movement executor node took in the list of waypoints, calculated the cartesian path, and finally executed the plan using the move group execute() function.
 </p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros15.png" title="Figure 15" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Results and Improvements:</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    Upon testing the cartesian path planner, we realised that despite reducing the number of waypoints, the trajectory was jerkier than expected since the time stop at every waypoint was quite significant. This was especially noticeable for the 4/4 trajectory. Moreover, the velocity of the robot couldn't be scaled with the max_velocity and max_acceleration scaling factors provided by MoveIt. Upon further research, we realised that this could be solved by using a different planner- particularly, the Pilz Industrial Motion Planner which allows the user to specify a bend radius used to pass each waypoint and the velocity during trajectory execution. This would allow us to get a real time beat on beat time signature motion as required. <br><br>
+ 
+    We plan on expanding on the current functionality of the robot by incorporating a real time and smoothening portion into our implementation, as well as the variable amplitude scaling dependent on BPM. Now that we know how to provide multiple points for a robot to move through, the next step is syncing the conducting motion of the robot to the actual beat input, which will be done by publishing the time stamp at which a beat occurs in a song and executing a timed motion based on a calculated latency in data transmission. We believe that the implementation of the Pilz Industrial Motion Planner will allow us the desired velocity control to ensure that our trajectory is executing within the specified time frame that it takes to denote a time signature (for example 2 seconds for a 2/2 time signature). We also plan on using mercator projections to map the 2D points of the robot end effector to its spherical workspace, which we believe will result in a smoother motion with less loss of efficiency in unnecessary joint turns.
+</p>
+
+<div class="row mt-3 text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/ros/IMG_1089.MOV" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/ros/IMG_1096.MOV" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+<div class="caption text-center">
+    Video 1 (left): Sawyer Motion pre-image filtering Video 2 (right): Sawyer Motion after image filtering
+</div>
