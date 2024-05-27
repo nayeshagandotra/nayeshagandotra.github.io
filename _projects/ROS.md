@@ -152,7 +152,50 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros11.png" title="Figure 11" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
-<div class="caption text-center">Figure 3: Figure 3: Axes definition for the Sawyer robot</div>
+<div class="caption text-center">Figure 4: Painted images input into trajectory creation node </div>
+
+<p style="margin-top: 0.3em;">
+    Once the divided image was saved, we implemented a simple thresholding algorithm to filter out pixels that weren’t included in the trajectory. For this, we chose a threshold value between 0 to 70, such that all pixels with intensity within those values would be set to an intensity of 1 and all pixels lying outside those bounds would be set to 0. This ensured that only the pixels lying along the trajectory were noted as the “pixels of interest”, which could be then translated into 3D robot coordinates. 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros12.png" title="Figure 12" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 5: 2/2 Trajectory part 1 post filtering </div>
+
+<p style="margin-top: 0.3em;">
+    The output image was of dimension [835x1650], with the +z axis pointing downward. In order to align the pixel coordinate z axis and the robot z axis, we implemented a cv.flip() on the image. Further, to scale the pixel coordinates to the robot’s workspace we implemented a simple scaling function as: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros13.png" title="Figure 13" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros14.png" title="Figure 14" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    Where Delta Z is the vertical distance between two pixel coordinates and Delta Y is the horizontal distance. Scaling those was necessary to expand the image to fit actual 3D measurements mentioned above. We repeated this process for both halves of the trajectory and then vertically concatenated the two arrays together to form a combined point list. The final output was an array of 2D points in the Z-Y plane that the robot arm would pass through while executing the conductor trajectory. However, as the list was over 2000 points long, we were concerned about jerkiness in the robot motion since our chosen planner included a timed stop at every waypoint. This aligned with what we observed as well, and the results of both attempts can be seen in the Links section. Hence, in order to smoothen the motion and also reduce latency in execution, we decided to reduce the >2000 waypoint array to just under 16 critical waypoints that retained the trajectory shape while improving quality of motion. This was done with a simple filtering algorithm that randomly deleted every second element from the image pixels list. Finally, we also eliminated pixels that were less than 5 units close to each other to avoid bumps due to line width capture. <br><br>
+
+    Now that we had a list of discrete x,y,z coordinates for the robot to pass through, we moved on to selecting a planner to create a trajectory through those points. Due to our experience with MoveIt, we decided to use the Cartesian Path Planning functionality of MoveGroupInterface. This allows us to input a list of waypoints expressed in terms of a PoseArray- a list of poses. We also included a table as a path constraint to enable the path planner to navigate around hard obstacles. <br><br>
+
+    The output from the cartesian planning algorithm was a RobotTrajectory message which contained joint angles and velocities at each given waypoint. 
+</p>
+
+<!-- Sub-Subheading -->
+<h3 style="font-size: 1.05em; font-style: italic; margin-top: 1.5em;">Node Structure and testing implementation:</h3>
+<!-- Sub-Subheading -->
+
+<p style="margin-top: 0.3em;">
+    We wanted our implementation to be rapidly iterable, hence we decided to split our code into three nodes- audio processing, image recognition and state decision, and movement execution. The audio processing node took audio input, converted it into a .WAV file, and used pattern recognition to identify the salient BPM of the audio file. We also decided to map a “high” BPM- defined above ~150 BPM to a 2/2 motion, since that was less elaborate and required less time to complete. A “low” BPM was mapped to the 4/4 motion, which had multiple stops and would require longer to execute fully. The image processing was all done beforehand, since the trajectory for a particular time signature wouldn’t change as the motion was happening, and we wanted to avoid latency due to time lost during image processing. The state decider node took the calculated trajectory waypoints as a CSV file and mapped them to a dictionary where the keys were the “low” or “high” signal of the BPM. The state decider served as both a publisher and subscriber node and published the calculated PoseArray of waypoints onto the state_info topic, which was subscribed to by the movement executor node. The movement executor node took in the list of waypoints, calculated the cartesian path, and finally executed the plan using the move group execute() function.
+</p>
