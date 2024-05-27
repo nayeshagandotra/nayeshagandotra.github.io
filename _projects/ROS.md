@@ -2,10 +2,10 @@
 layout: page
 title: ROS Conductor
 description: Sawyer manipulator made to conduct to audio input using ROS
-img: assets/img/12.jpg
+img: assets/img/ros/sawyer_edited.jpg
 importance: 3
 category: Robotics
-related_publications: true
+related_publications: false
 ---
 
 <!-- Project Title -->
@@ -30,7 +30,7 @@ related_publications: true
 <!-- Subheading -->
 
 <!-- Sub-Subheading -->
-<h3 style="font-size: 1.05em; font-style: italic; margin-top: 1.5em;">Motion Planning</h3>
+<h3 style="font-size: 1.05em; font-style: italic; margin-top: 0.3em;">Motion Planning</h3>
 <!-- Sub-Subheading -->
 
 <p style="margin-top: 0.3em;">
@@ -53,7 +53,7 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros2.png" title="Figure 2" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros2.png" title="Figure 2" class="img-fluid rounded" width="25%" height="auto" %}
     </div>
 </div>
 
@@ -76,7 +76,7 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros4.png" title="Figure 4" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros4.png" title="Figure 4" class="img-fluid rounded" width="250" height="auto" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ros/ros5.png" title="Figure 5" class="img-fluid rounded" width="450" height="auto" %}
@@ -109,7 +109,7 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros8.png" title="Figure 8" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros8.png" title="Figure 8" class="img-fluid rounded" width="375" height="auto" %}
     </div>
 </div>
 
@@ -163,7 +163,7 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros12.png" title="Figure 12" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros12.png" title="Figure 12" class="img-fluid rounded" width="250" height="auto" %}
     </div>
 </div>
 <div class="caption text-center">Figure 5: 2/2 Trajectory part 1 post filtering </div>
