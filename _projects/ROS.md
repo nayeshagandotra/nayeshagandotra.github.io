@@ -234,14 +234,12 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <p style="margin-top: 0.3em;">
     <a href="https://github.com/uilsemaj/CS206a-final-project" target="_blank">Github Repository of Code</a> <br><br>
-    
-    References: <br><br>
 
-    <a href="https://www.scientificamerican.com/article/dancing-with-robots/" target="_blank">https://www.scientificamerican.com/article/dancing-with-robots/</a> <br><br>
+    <a href="https://www.scientificamerican.com/article/dancing-with-robots/" target="_blank">https://www.scientificamerican.com/article/dancing-with-robots/</a> <br>
 
-    <a href="https://docs.ros.org/en/noetic/api/moveit_msgs/html/msg/RobotTrajectory.html" target="_blank">Move it messages ROS documentation</a> <br><br>
+    <a href="https://docs.ros.org/en/noetic/api/moveit_msgs/html/msg/RobotTrajectory.html" target="_blank">Move it messages ROS documentation</a> <br>
 
-    <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html" target="_blank">Geometry messages ROS documentation</a> <br><br>
+    <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html" target="_blank">Geometry messages ROS documentation</a> <br>
 </p>
 
 

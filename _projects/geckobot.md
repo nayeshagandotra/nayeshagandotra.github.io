@@ -307,7 +307,7 @@ category: Robotics
 </p>
 
 <!-- Subheading -->
-<h2 style="font-size: 1.2em; font-weight: bold; font-style: italic; margin-top: 1.5em;">References</h2>
+<h2 style="font-size: 1.2em; font-weight: bold; font-style: italic; margin-top: 1.5em;">Contributions</h2>
 <!-- Subheading -->
 
 <p style="margin-top: 0.3em;">
