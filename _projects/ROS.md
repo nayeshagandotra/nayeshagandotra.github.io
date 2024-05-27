@@ -109,6 +109,50 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ros/ros7.png" title="Figure 7" class="img-fluid rounded" width="450" height="auto" %}
+        {% include figure.liquid path="assets/img/ros/ros8.png" title="Figure 8" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
+
+<p style="margin-top: 0.3em;">
+    Once again using the robot/joint_state topic of the sawyer robot, we find the necessary thetas and xis at each instance of time, which results in the required gst(theta) value which can then be used for forward and inverse kinematics. <br><br>
+ 
+    The gst theta was then published onto a separate topic called tf_echo, and the rotation was represented as a quaternion using the 3D rotation to quaternion conversion: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros9.png" title="Figure 9" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    The final message published to tf_echo contained the translation between the {S} and {T} frame as a 3D coordinate and the orientation of the tool frame represented as a quaternion. <br><br>
+
+    Once the tf_echo function was fleshed out, we could get live transformation functions between the end effector and the base of the robot. Then, placing the robot in zero g mode, we took the robot to the highest and lowest point of interest and measured the noted orientation and translation values. We found that the highest point was roughly at [-0.89, 0.835, 0.1] and the lowest point was at [-0.89, 0.2, 0.3]. The x, y, and z axes of the sawyer robot were defined by the blue, red, and green axes as follows:
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 3: Figure 3: Axes definition for the Sawyer robot</div>
+
+<p style="margin-top: 0.3em;">
+    With this information on the end effector position at time t, we went into openCV to extract trajectories from input images for the sawyer robot to follow. 
+</p>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">OpenCV and Trajectory Recognition:</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    In order to extract points along the trajectory for the sawyer arm to follow, we decided to use python’s open camera vision module to process an input JPG image and output translation and rotation in terms of an array of Poses, where each Pose() consists of a translation and orientation. We began by dividing the trajectory into multiple pieces- increasing y direction and decreasing y direction to ease in the sorting of the image array and drawing out those pieces using paint to feed into the image processing node.
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros10.png" title="Figure 10" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 3: Figure 3: Axes definition for the Sawyer robot</div>
