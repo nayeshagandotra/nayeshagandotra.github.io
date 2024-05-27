@@ -4,7 +4,7 @@ title: GeckoBot
 description: Gecko and frog inspired 8DoF locomoting robot. Capable of climbing max 68 degree incline with no support.
 img: assets/img/geckobot/geckobot_cover.png
 importance: 2
-category: work
+category: Robotics
 ---
 
 <!-- Project Title -->

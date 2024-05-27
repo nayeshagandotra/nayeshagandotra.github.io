@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories:
+display_categories: [Robotics, Data/Fun]
 horizontal: false
 project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
 ---

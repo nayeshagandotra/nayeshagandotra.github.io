@@ -4,7 +4,7 @@ title: ROS Conductor
 description: Sawyer manipulator made to conduct to audio input using ROS
 img: assets/img/12.jpg
 importance: 3
-category: work
+category: Robotics
 related_publications: true
 ---
 
