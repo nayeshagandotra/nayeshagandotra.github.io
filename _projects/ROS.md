@@ -218,12 +218,20 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 
 <div class="row mt-3 text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/ros/IMG_1089.MOV" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/ros/IMG_1089.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/ros/IMG_1096.MOV" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/ros/IMG_1096.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption text-center">
     Video 1 (left): Sawyer Motion pre-image filtering Video 2 (right): Sawyer Motion after image filtering
 </div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Links and References</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    Github Repository of Code
+</p>
