@@ -233,5 +233,5 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
 <!-- Subheading -->
 
 <p style="margin-top: 0.3em;">
-    Github Repository of Code
+    <a href="https://github.com/uilsemaj/CS206a-final-project" target="_blank">Github Repository of Code</a>
 </p>
