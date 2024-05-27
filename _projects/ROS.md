@@ -82,3 +82,33 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
         {% include figure.liquid path="assets/img/ros/ros5.png" title="Figure 5" class="img-fluid rounded" width="450" height="auto" %}
     </div>
 </div>
+
+<p style="margin-top: 0.3em;">
+    Moreover, by echoing the robot/joint_states topic, we find the required values of q at the given instance of time: 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros6.png" title="Figure 6" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    This allows us to find gst(0) as:
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros7.png" title="Figure 7" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
+
+<p style="margin-top: 0.3em;">
+    Applying the concept of forward kinematics, we see that 
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ros/ros7.png" title="Figure 7" class="img-fluid rounded" width="450" height="auto" %}
+    </div>
+</div>
