@@ -242,4 +242,11 @@ On account of working with a one armed Sawyer robot, we decided to focus on the 
     <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html" target="_blank">Geometry messages ROS documentation</a> <br>
 </p>
 
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Contributors</h2>
+<!-- Subheading -->
 
+<p style="margin-top: 0.3em;">
+    Motion Planning and CV: Nayesha Gandotra and Ryan Ho <br>
+    Music and BPM Recognition: Bob Ni and James Liu <br>
+</p>
