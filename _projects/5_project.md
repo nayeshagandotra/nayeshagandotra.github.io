@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: DNN Battery Safety
+description: Leveraging On-Board Sensor Data for Abuse Mode Identification via DNNs and Random Forests
+img: assets/tesla/3 slide summary of work.jpg
+importance: 1
+category: Corporate
 ---
 
 Every project has a beautiful feature showcase page.
