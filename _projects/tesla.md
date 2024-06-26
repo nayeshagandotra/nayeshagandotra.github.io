@@ -2,7 +2,7 @@
 layout: page
 title: DNN Battery Safety
 description: Leveraging On-Board Sensor Data for Abuse Mode Identification via DNNs and Random Forests
-img: assets/img/tesla/3 slide summary of work.jpg
+img: assets/img/tesla/3 slide summary of work-2.jpg
 importance: 1
 category: Work Experience
 ---
