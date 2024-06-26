@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Robotics, Corporate]
+display_categories: [Robotics, Work Experience]
 horizontal: false
 project_pdf: "Nayesha_Gandotra_Resume_2024.pdf"
 ---
