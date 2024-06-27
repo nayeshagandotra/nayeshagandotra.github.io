@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DNN Battery Safety
-description: Leveraging On-Board Sensor Data for Abuse Mode Identification via DNNs and Random Forests
+description: 2023-2024 project as a full-time Systems Design/ Architecture Engineer in the Abuse and Functional Safety team
 img: assets/img/tesla/3 slide summary of work-2.jpg
 importance: 1
 category: Work Experience
