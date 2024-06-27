@@ -18,7 +18,7 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tesla/keynote cad.jpg" title="Figure 1" class="img-fluid rounded" width="100%" height="auto" %}
+        {% include figure.liquid path="assets/img/tesla/tesla4.png" title="Figure 1" class="img-fluid rounded" width="100%" height="auto" %}
     </div>
 </div>
 
@@ -58,7 +58,8 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tesla/tesla3.jpg" title="Figure 2" class="img-fluid rounded" width="300" height="auto" %}
+        {% include figure.liquid path="assets/img/tesla/tesla3.jpg" title="Figure 2" class="img-fluid rounded" width="500" height="auto" %}
     </div>
 </div>
+
 
