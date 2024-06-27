@@ -71,6 +71,30 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tesla/tesla5.jpg" title="Figure 5" class="img-fluid rounded" width="500" height="auto" %}
+        {% include figure.liquid path="assets/img/tesla/tesla7.jpg" title="Figure 5" class="img-fluid rounded" width="500" height="auto" %}
     </div>
 </div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Results</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    The Random Forests revealed the importance of vehicle speed and acceleration in differentiating cases based on severity of battery damage.   
+</p>
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tesla/tesla6.jpg" title="Figure 5" class="img-fluid rounded" width="500" height="auto" %}
+    </div>
+</div>
+<div class="caption text-center">Figure 2: Example plot showing the empirically derived relationship between Battery Damage (BD), velocity at impact, and max. acceleration</div>
+
+<p style="margin-top: 0.3em;">
+    Preliminarily, the DNN yielded a 90% accuracy in prediction, with a confusion matrix showing the highest prediction rates for crash and false positive cases. False negative triggers and pure battery damage cases showed a lower accuracy in prediction. The proposed strategy for accuracy improvement was:
+</p>
+<ul>
+    <li>Update thresholds based on Random Forest recommendations and empirically derived plot to collect broader field data</li>
+    <li>Use DNN to filter out non battery damage cases</li>
+    <li>Iterate feature identification and classification process to improve accuracy in classifying battery damage cases. </li>
+</ul>
