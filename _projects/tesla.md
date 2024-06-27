@@ -53,7 +53,7 @@ category: Work Experience
 <!-- Sub-Subheading -->
 
 <p style="margin-top: 0.3em;">
-    Once labeled data was collected, ~92 features were identified as potential high impact features- ones that showed the highest signal between different damage types. Then, random forests were used to classify the data, and then feature importance plots were used to finalize focus features that could be used to improve data collection and binning.
+    Once labeled data was collected, ~92 features were identified as potential high impact features- ones that showed the highest signal between different damage types. Then, random forests were used to classify the data, and then feature importance plots were used to finalize focus features that could be used to improve data collection.
 </p>
 
 <div class="row text-center">
@@ -62,4 +62,15 @@ category: Work Experience
     </div>
 </div>
 
+<!-- Sub-Subheading -->
+<h3 style="font-size: 1.05em; font-style: italic; margin-top: 1.5em;">Deep Neural Networks (DNNs)</h3>
+<!-- Sub-Subheading -->
+<p style="margin-top: 0.3em;">
+    In combination with random forests, a DNN based classification algorithm was also trained on time series data from a subset of high impact features. This is because upon visual inspection, certain damage types produced unique signatures, which an LSTM based DNN would be able to identify and use for high accuracy classification.  
+</p>
 
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tesla/tesla5.jpg" title="Figure 5" class="img-fluid rounded" width="500" height="auto" %}
+    </div>
+</div>
