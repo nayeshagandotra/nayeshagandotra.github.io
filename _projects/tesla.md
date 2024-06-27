@@ -85,7 +85,7 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/tesla/tesla6.jpg" title="Figure 5" class="img-fluid rounded" width="500" height="auto" %}
+        {% include figure.liquid path="assets/img/tesla/tesla6.jpg" title="Figure 5" class="img-fluid rounded" width="400" height="auto" %}
     </div>
 </div>
 <div class="caption text-center">Figure 2: Example plot showing the empirically derived relationship between Battery Damage (BD), velocity at impact, and max. acceleration</div>
@@ -94,7 +94,7 @@ category: Work Experience
     Preliminarily, the DNN yielded a 90% accuracy in prediction, with a confusion matrix showing the highest prediction rates for crash and false positive cases. False negative triggers and pure battery damage cases showed a lower accuracy in prediction. The proposed strategy for accuracy improvement was:
 </p>
 <ul>
-    <li>Update thresholds based on Random Forest recommendations and empirically derived plot to collect broader field data</li>
+    <li>Update thresholds based on empirically derived plot to collect broader field data</li>
     <li>Use DNN to filter out non battery damage cases</li>
-    <li>Iterate feature identification and classification process to improve accuracy in classifying battery damage cases. </li>
+    <li>Iterate feature identification and classification process to improve classification accuracy. </li>
 </ul>
