@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Display Product Design
-description: Summer 2022 Intern project
+description: Summer 2022 Intern project for MacPD @ Apple
 img: assets/img/apple/apple1.jpg
 importance: 2
 category: Work Experience
 ---
 
 <!-- Project Title -->
-<h1 style="font-size: 1.5em; font-weight: bold;">Improved Sub-Component Design for Market Released External Display System
+<h1 style="font-size: 1.5em; font-weight: bold;">Improved Sub-Component Design for Market Released External Display
 </h1>
 <!-- Project Title -->
 
