@@ -59,6 +59,7 @@ category: Work Experience
             {% include figure.liquid path="assets/img/apple/apple5.gif" title="Figure 5" class="img-fluid rounded" width="100%" height="auto" %}
         </div>
     </div>
+    This type of testing allows the user to detect very minute shifts and movements in deformable parts, and was great help in identifying a previously unknown mode of deformation in the target sub-component, which could then be quantified and designed for.</li>
 </ol>
 
 
