@@ -66,7 +66,7 @@ category: Work Experience
             {% include figure.liquid path="assets/img/apple/apple6.png" title="Figure 6" class="img-fluid rounded" width="80%" height="auto" %}
         </div>
     </div> 
-    Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as seen above. 
+    Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as seen above. </li>
 </ol>
 
 
