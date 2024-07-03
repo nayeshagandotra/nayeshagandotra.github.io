@@ -18,7 +18,7 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/apple/apple2.png" title="Figure 2" class="img-fluid rounded" width="100%" height="auto" %}
+        {% include figure.liquid path="assets/img/apple/apple2.png" title="A picture of me at Apple Park" class="img-fluid rounded" width="100%" height="auto" %}
     </div>
 </div>
 
@@ -45,10 +45,18 @@ category: Work Experience
 </p>
 
 <ol>
-    <li>Center of Gravity Measurement System with custom fixtures </li>
+    <li>Center of Gravity Measurement System with custom fixtures 
     <div class="row text-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.liquid path="assets/img/apple/apple3.png" title="Figure 3" class="img-fluid rounded" width="100%" height="auto" %}
+            {% include figure.liquid path="assets/img/apple/apple4.png" title="Figure 4" class="img-fluid rounded" width="100%" height="auto" %}
+        </div>
+    </div>
+    This device has an associated visualiser that shows you precise CG location for the mass placed on it with very high fidelity. It proved very useful for calculating predicted weight shifts for a wide range of product options.
+    </li>
+    <li> Digital Image Correlation Testing
+    <div class="row text-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/apple/apple5.gif" title="Figure 5" class="img-fluid rounded" width="100%" height="auto" %}
         </div>
     </div>
 </ol>
