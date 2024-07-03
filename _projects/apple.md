@@ -13,7 +13,7 @@ category: Work Experience
 <!-- Project Title -->
 
 <p style="margin-top: 0.3em;">
-    During my summer internship at Apple, I worked with the MacPD team, and was tasked with redesigning a sub-component of a market released display system to meet updated architecture and safety requirements. In this page, I'll go into a little detail of the project, tools used, and final proposed design changes. 
+    During my summer internship at Apple, I worked with the MacPD team, and was tasked with redesigning a sub-component of a market released display system to meet updated architecture and safety requirements. In this page, I'll go into a little detail of the project and tools/skills used. 
 </p>
 
 <div class="row text-center">
@@ -41,7 +41,7 @@ category: Work Experience
 <!-- Subheading -->
 
 <p style="margin-top: 0.3em;">
-    For verifying tip related theories and proposed design changes, I made use of the following experimental tools:
+    For verifying tip related theories and proposed design changes, I made use of the following tools:
 </p>
 
 <ol>
@@ -60,6 +60,13 @@ category: Work Experience
         </div>
     </div>
     This type of testing allows the user to detect very minute shifts and movements in deformable parts, and was great help in identifying a previously unknown mode of deformation in the target sub-component, which could then be quantified and designed for.</li>
+    <li> SiemensNX and Tolerance Analysis
+    Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as follows: 
+    <div class="row text-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/apple/apple6.png" title="Figure 6" class="img-fluid rounded" width="100%" height="auto" %}
+        </div>
+    </div>
 </ol>
 
 
