@@ -18,7 +18,7 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/apple/apple2.png" title="Figure 1" class="img-fluid rounded" width="100%" height="auto" %}
+        {% include figure.liquid path="assets/img/apple/apple2.png" title="Figure 2" class="img-fluid rounded" width="100%" height="auto" %}
     </div>
 </div>
 
@@ -32,7 +32,25 @@ category: Work Experience
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/apple/apple3.png" title="Figure 1" class="img-fluid rounded" width="100%" height="auto" %}
+        {% include figure.liquid path="assets/img/apple/apple3.png" title="Figure 3" class="img-fluid rounded" width="100%" height="auto" %}
     </div>
 </div>
+
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Tools Used</h2>
+<!-- Subheading -->
+
+<p style="margin-top: 0.3em;">
+    For verifying tip related theories and proposed design changes, I made use of the following experimental tools:
+</p>
+
+<ol>
+    <li>Center of Gravity Measurement System with custom fixtures </li>
+    <div class="row text-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/apple/apple3.png" title="Figure 3" class="img-fluid rounded" width="100%" height="auto" %}
+        </div>
+    </div>
+</ol>
+
 
