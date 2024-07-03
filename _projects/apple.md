@@ -69,4 +69,10 @@ category: Work Experience
     Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as seen above. </li>
 </ol>
 
+<!-- Subheading -->
+<h2 style="font-size: 1.2em; font-style: italic; margin-top: 1.5em;">Conclusions</h2>
+<!-- Subheading -->
 
+<p style="margin-top: 0.3em;">
+    My final design proposal balanced all problem requirements and resulted in no visible impact to the user, which was the desired outcome. The new design required minimal manufacturing changes, and hence proved to be cost effective as well, and could be easily integrated with both the old and new version of the product. Overall, my internship, though only a summer long, taught me a lot about the essentials of product and customer facing design, and I'm glad I got to work on an actually impactful project and see it to completion.
+</p>
