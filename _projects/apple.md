@@ -61,12 +61,12 @@ category: Work Experience
     </div>
     This type of testing allows the user to detect very minute shifts and movements in deformable parts, and was great help in identifying a previously unknown mode of deformation in the target sub-component, which could then be quantified and designed for.</li>
     <li> <em>SiemensNX and Tolerance Analysis</em>
-    Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as follows: 
     <div class="row text-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.liquid path="assets/img/apple/apple6.png" title="Figure 6" class="img-fluid rounded" width="100%" height="auto" %}
+            {% include figure.liquid path="assets/img/apple/apple6.png" title="Figure 6" class="img-fluid rounded" width="80%" height="auto" %}
         </div>
-    </div>
+    </div> 
+    Custom prototypes were designed using SiemensNX, and a tolerance analysis was conducted on them to ensure proper fit and use. An example of the types of tolerance stackups used is as seen above. 
 </ol>
 
 
