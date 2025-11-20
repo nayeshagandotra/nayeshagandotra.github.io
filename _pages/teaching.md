@@ -46,12 +46,12 @@ horizontal: false
 - **Future Faculty Fellow** — [Eberly Center](https://www.cmu.edu/teaching/graduatestudentsupport/futurefacultyprogram.html)  
   *Carnegie Mellon University · Fall 2024 - Spring 2026*  
 
-- **Mechanical Engineering MS Ambassador** 
-  *Carnegie Mellon University · Fall 2024 - Spring 2026*  
+- **Mechanical Engineering MS Ambassador**  
+  *Carnegie Mellon University · Fall 2024 - Spring 2026*
 
-- **Teaching Staff, Center for Access to Engineering Excellence** 
-  *University of California at Berkeley · Fall 2021 - Spring 2022*  
+- **Teaching Staff, Center for Access to Engineering Excellence**  
+  *University of California at Berkeley · Fall 2021 - Spring 2022*
 
-- **Mentor, First Generation Mentorship Program** 
+- **Mentor, First Generation Mentorship Program**  
   *University of California at Berkeley · Fall 2020 - Spring 2021*  
 
