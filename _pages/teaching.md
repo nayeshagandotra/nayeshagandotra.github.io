@@ -11,22 +11,22 @@ horizontal: false
 
 ## Robotics / Deep Learning Courses
 
-- **Lead Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Spring 2026
-- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Fall 2025
-- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Fall 2025
+- **Lead Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Spring 2026  
+  Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh
 
+- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Fall 2025  
+  Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh
+
+- **Lead Teaching Assistant** | [ME 135 Design of Microprocessor-Based Mechanical Systems](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-135.pdf) | Spring 2023  
+  University of California at Berkeley | Instr. George Anwar
+
+- **Lead Teaching Assistant** | [ME 100 Electronics for the Internet of Things](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-100-rev-10.31.18.pdf) | Fall 2023  
+  University of California at Berkeley | Instr. George Anwar
 
 ## Mechanical Engineering Courses
 
-<!-- Add your mechanical engineering courses here -->
-<!-- Example format:
-- **Position**: Teaching Assistant | [Course Name](course-url) | Year
--->
+
 
 ## Other Teaching Affiliations
 
-<!-- Add other teaching positions here -->
-<!-- Example format:
-- **Position**: Role | [Affiliation Name](affiliation-url) | Year
--->
 
