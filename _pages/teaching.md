@@ -9,7 +9,22 @@ display_categories: [TA Positions, Others]
 horizontal: false
 ---
 
+## Robotics / Deep Learning Courses
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- **Lead Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Spring 2026
+- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Fall 2025
 
-Organize your courses by years, topics, or universities, however you like!
+## Mechanical Engineering Courses
+
+<!-- Add your mechanical engineering courses here -->
+<!-- Example format:
+- **Position**: Teaching Assistant | [Course Name](course-url) | Year
+-->
+
+## Other Teaching Affiliations
+
+<!-- Add other teaching positions here -->
+<!-- Example format:
+- **Position**: Role | [Affiliation Name](affiliation-url) | Year
+-->
+
