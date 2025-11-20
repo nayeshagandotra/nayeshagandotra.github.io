@@ -11,8 +11,10 @@ horizontal: false
 
 ## Robotics / Deep Learning Courses
 
-- **Lead Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Spring 2026
-- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Fall 2025
+- **Lead Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Spring 2026
+- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Fall 2025
+- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh | Fall 2025
+
 
 ## Mechanical Engineering Courses
 
