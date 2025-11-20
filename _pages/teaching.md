@@ -11,29 +11,35 @@ horizontal: false
 
 ## Robotics / Deep Learning Courses
 
-- **Lead Teaching Assistant**, [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html), Spring 2026  
-  Carnegie Mellon University, Instrs. Bhiksha Raj Ramakrishnan and Rita Singh
+- **Teaching Assistant** — [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html)  
+  *Carnegie Mellon University · Fall 2025*  
+  Instructors: Bhiksha Raj Ramakrishnan, Rita Singh
 
-- **Teaching Assistant** | [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/F25/index.html) | Fall 2025  
-  Carnegie Mellon University | Instrs. Bhiksha Raj Ramakrishnan and Rita Singh
-
-- **Lead Teaching Assistant** | [ME 135 Design of Microprocessor-Based Mechanical Systems](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-135.pdf) | Spring 2023  
-  University of California at Berkeley | Instr. George Anwar
-
-- **Lead Teaching Assistant** | [ME 100 Electronics for the Internet of Things](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-100-rev-10.31.18.pdf) | Fall 2023  
-  University of California at Berkeley | Instr. George Anwar
-
-
+- **Lead Teaching Assistant** — [11-785 Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/S26/index.html)  
+  *Carnegie Mellon University · Spring 2026*  
+  Instructors: Bhiksha Raj Ramakrishnan, Rita Singh
 
 ## Mechanical Engineering Courses
-- **Teaching Assistant** | [24-452 Mechanical Systems Experimentation](https://www.meche.engineering.cmu.edu/education/courses/24-452.html) | Fall 2024  
-  Carnegie Mellon University | Instr Reeja Jayan
 
-- **Teaching Assistant** | [24-351 Dynamics](https://www.meche.engineering.cmu.edu/education/courses/24-351.html) | Spring 2025  
-  Carnegie Mellon University | Instr Aaron Johnson
+- **Lead Teaching Assistant** — [ME 135 Design of Microprocessor-Based Mechanical Systems](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-135.pdf)  
+  *University of California at Berkeley · Spring 2023*  
+  Instructor: George Anwar
 
+- **Lead Teaching Assistant** — [ME 100 Electronics for the Internet of Things](https://me.berkeley.edu/wp-content/uploads/2019/03/ME-100-rev-10.31.18.pdf)  
+  *University of California at Berkeley · Fall 2023*  
+  Instructor: George Anwar
+
+- **Teaching Assistant** — [24-452 Mechanical Systems Experimentation](https://www.meche.engineering.cmu.edu/education/courses/24-452.html)  
+  *Carnegie Mellon University · Fall 2024*  
+  Instructor: Reeja Jayan
+
+- **Teaching Assistant** — [24-351 Dynamics](https://www.meche.engineering.cmu.edu/education/courses/24-351.html)  
+  *Carnegie Mellon University · Spring 2025*  
+  Instructor: Aaron Johnson
 
 ## Other Teaching Affiliations
-- **Inclusive Teaching Fellow** | [24-351 Dynamics](https://www.meche.engineering.cmu.edu/education/courses/24-351.html) | Summer 2025  
-  Carnegie Mellon University | Instr Victoria Webster-Wood
+
+- **Inclusive Teaching Fellow** — [24-351 Dynamics](https://www.meche.engineering.cmu.edu/education/courses/24-351.html)  
+  *Carnegie Mellon University · Summer 2025*  
+  Instructor: Victoria Webster-Wood
 
