@@ -18,6 +18,6 @@ profile:
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm interested in developing technology that will solve fundamental problems affecting our planet and its dependent societies. Talk to me about planes, electric cars, or robots! Check out my projects page for more details on past work.
+I'm interested in developing technology that will solve fundamental problems affecting our planet and its dependent societies. Currently, I am doing that by combining Search Based Planning and Learning to make robots that can reliably handle objects, work in a team of thousands, or operate safely around humans. Check out my projects page for more details on past work and publications.
 
-Outside of work, I'm an avid reader and amateur chef (check out the blog page for more fun lifestyle related posts). x
+Outside of work, I'm an avid reader and amateur chef. Always looking for recs for either!
