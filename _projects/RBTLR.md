@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RBTLR: Socially Aware Robot Navigation
+title: Anytime PIBT
 description: Submitted at LBR @ HRI'26
 img: assets/img/warehouse-robot.jpg
 redirect: https://arxiv.org/abs/2504.07841
