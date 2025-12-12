@@ -1,6 +1,6 @@
 ---
 layout: page
-title: image.png
+title: Behavioral CTMP
 description: Submitted at ICRA'26 
 img: assets/img/nayesha_teaser_final.png
 redirect: https://www.arxiv.org/abs/2512.00939
