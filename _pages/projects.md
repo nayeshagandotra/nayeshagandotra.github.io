@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Publications, Robotics, Work Experience]
+display_categories: [Work Experience, Robotics]
 horizontal: false
 project_pdf: "Nayesha_Gandotra_Resume_Fa25__PhD_Apps_.pdf"
 ---
