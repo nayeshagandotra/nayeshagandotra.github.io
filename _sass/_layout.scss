@@ -41,6 +41,14 @@ body.sticky-bottom-footer {
 // TODO: redefine content layout.
 
 // News: compact timeline with a date pill per item instead of the default table.
+// Clears the floated profile image and separates news from the bio.
+.news-heading {
+  clear: both;
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
 .news-scroll {
   overflow-y: auto;
 }
