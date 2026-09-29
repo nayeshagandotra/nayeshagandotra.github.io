@@ -40,6 +40,57 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// News: compact timeline with a date pill per item instead of the default table.
+.news-scroll {
+  overflow-y: auto;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0 0 0 1rem;
+  border-left: 2px solid var(--global-divider-color);
+}
+
+.news-item {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1rem - 5px);
+    top: 0.85rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+  }
+}
+
+.news-date {
+  flex-shrink: 0;
+  padding: 0.05rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+}
+
+.news-body a {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
